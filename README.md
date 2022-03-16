@@ -73,3 +73,17 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+# aws-cognito-whats-the-difference-between-access-and-identity-tokens
+
+- The id_token is for your application to process, so you can get all the personal details for your user, like their name, age, email address etc. Generally speaking you shouldn't send this token anywhere else as it contains sensitive user data.
+
+- The access_token is used to call other 'external' services (and by external I include other AWS services - these are often called over http). It provides service access authorisation for your user without having to include their personal details.
+
+Postman :need to pass ID token to get data 
+
+
+
+
+
