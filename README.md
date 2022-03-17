@@ -75,7 +75,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
 
-# aws-cognito-whats-the-difference-between-access-and-identity-tokens
+### aws-cognito-whats-the-difference-between-access-and-identity-tokens
 
 - The id_token is for your application to process, so you can get all the personal details for your user, like their name, age, email address etc. Generally speaking you shouldn't send this token anywhere else as it contains sensitive user data.
 
@@ -83,6 +83,9 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 Postman :need to pass ID token to get data 
 
+### 
+
+- https://catalog.us-east-1.prod.workshops.aws/workshops/cd8ebba2-2ef8-431a-8f72-ca7f6761713d/en-US/user-based-embedding/2-embedding-workflow
 
 
 
