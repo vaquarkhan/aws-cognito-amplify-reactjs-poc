@@ -11,6 +11,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+# before start run thi 3 commands 
+npm i -g npm-check-updates
+ncu -u
+npm install
+
+
 ### `npm start`
 
 Runs the app in the development mode.<br>
